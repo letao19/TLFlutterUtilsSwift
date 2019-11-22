@@ -1,0 +1,27 @@
+PODS:
+  - FBSnapshotTestCase (2.1.4):
+    - FBSnapshotTestCase/SwiftSupport (= 2.1.4)
+  - FBSnapshotTestCase/Core (2.1.4)
+  - FBSnapshotTestCase/SwiftSupport (2.1.4):
+    - FBSnapshotTestCase/Core
+  - TLFlutterUtilsSwift (0.1.0)
+
+DEPENDENCIES:
+  - FBSnapshotTestCase (~> 2.1.4)
+  - TLFlutterUtilsSwift (from `../`)
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - FBSnapshotTestCase
+
+EXTERNAL SOURCES:
+  TLFlutterUtilsSwift:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
+  TLFlutterUtilsSwift: ff4c14036928b7f20f7693a02aa1755d4cd128f7
+
+PODFILE CHECKSUM: 593066e7ee41e85fbe4514d81fec329e01d6bd03
+
+COCOAPODS: 1.7.5

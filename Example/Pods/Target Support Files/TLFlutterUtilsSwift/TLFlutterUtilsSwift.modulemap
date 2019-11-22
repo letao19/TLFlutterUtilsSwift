@@ -1,0 +1,6 @@
+framework module TLFlutterUtilsSwift {
+  umbrella header "TLFlutterUtilsSwift-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,22 @@
+{
+  "name": "TLFlutterUtilsSwift",
+  "version": "0.1.0",
+  "summary": "A short description of TLFlutterUtilsSwift.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/kidzss@163.com/TLFlutterUtilsSwift",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "kidzss@163.com": "gangtao.zhou@ymm56.com"
+  },
+  "source": {
+    "git": "https://github.com/kidzss@163.com/TLFlutterUtilsSwift.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "TLFlutterUtilsSwift/Classes/**/*"
+}

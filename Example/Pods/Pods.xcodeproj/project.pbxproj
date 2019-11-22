@@ -1,0 +1,1038 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		00224C929D57F45B70E87359E719948D /* FBSnapshotTestCase.h in Headers */ = {isa = PBXBuildFile; fileRef = 3E29C50D3CDB46CBCBD20AFA13EB3D8D /* FBSnapshotTestCase.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0360B15E4395CBC727F86A75E3C0B244 /* TLFlutterUtilsSwift-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 82C4F5D68E5E8C21B4381A002FDA1843 /* TLFlutterUtilsSwift-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		11C410135C7E89353B480AC8DE0BFB77 /* UIApplication+StrictKeyWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F1FE5C23F1BC485C54B92C32E78391F /* UIApplication+StrictKeyWindow.m */; };
+		14AD81D52FAD9CF2C065C61FB00C3B4F /* UIImage+Diff.m in Sources */ = {isa = PBXBuildFile; fileRef = E0956940883830C651240E754E3ECC52 /* UIImage+Diff.m */; };
+		14C511527597E5846AB2627F791C7D8E /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 716A9972B9D9103B54DB950893FAF104 /* QuartzCore.framework */; };
+		2DCFF0CE0BD295F1D46D3247F36B192C /* UIImage+Compare.m in Sources */ = {isa = PBXBuildFile; fileRef = EF53D290F564A9B10CEF56C9DC2010F2 /* UIImage+Compare.m */; };
+		40039E0AF0D764360B1D4FC4F7950D2E /* UIApplication+StrictKeyWindow.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A3ACA72AE9B776E644F6D159AB3E80B /* UIApplication+StrictKeyWindow.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		4E775EF9822EC4AD074BDEBE467945B9 /* Pods-TLFlutterUtilsSwift_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6F41CB1BF7D61FD40BA568F47EDA06B3 /* Pods-TLFlutterUtilsSwift_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		67AFD697681FB6BF19FF397FDA141C3A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BD4ED544B638D07C7D755AF1C27116A /* Foundation.framework */; };
+		6AE239C5D116E1C06F5705699FB9EAF0 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E601BD54DA9BF4071437E60125281FA /* XCTest.framework */; };
+		6DBC8EB7532E931C2FBDA71D1E0B66A4 /* FBSnapshotTestCase-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A83AE4362CF1D4764E00E4602A2D648 /* FBSnapshotTestCase-dummy.m */; };
+		7483EFB99F7B9ECA40588BF242F9DD5F /* Pods-TLFlutterUtilsSwift_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 43BC443921BC7607EDDCC01EC53B0144 /* Pods-TLFlutterUtilsSwift_Tests-dummy.m */; };
+		79AEC93C613E459750EEFC4151160459 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE79CD2295E26B3E41D2AE5D1946987E /* ReplaceMe.swift */; };
+		83CA07A31D765D2817BB29C00EB6C761 /* TLFlutterUtilsSwift-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 560216D62605AF49527E95D5DDE61A03 /* TLFlutterUtilsSwift-dummy.m */; };
+		88396E68DC05A379282F3B374F75F43C /* FBSnapshotTestController.m in Sources */ = {isa = PBXBuildFile; fileRef = DE35F81C954881204729C569018D98C0 /* FBSnapshotTestController.m */; };
+		8CE3BF0ACE07EA42DD5DAC871BF4B767 /* FBSnapshotTestCase.m in Sources */ = {isa = PBXBuildFile; fileRef = 13C8BBFE2D9E3A9C566221B1DE04E91C /* FBSnapshotTestCase.m */; };
+		90142C6259374E18E640396A59AD379A /* FBSnapshotTestController.h in Headers */ = {isa = PBXBuildFile; fileRef = 88EE4F95531D217A595AA8D85A24FA39 /* FBSnapshotTestController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9D65089019D558E5A9661F2DCAD20313 /* SwiftSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82D2DF1ABBBD85F5E079D7D0EB5479BC /* SwiftSupport.swift */; };
+		A525E29E0A8079B35B793D8A2B5FBDF2 /* UIImage+Snapshot.m in Sources */ = {isa = PBXBuildFile; fileRef = AA172EA1A198EEFBE0794EACF7993C02 /* UIImage+Snapshot.m */; };
+		AD26CD3714D84BB179AA0510D0B4B014 /* Pods-TLFlutterUtilsSwift_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8B8C7F16CBB2C2D7F268ED5FAB121197 /* Pods-TLFlutterUtilsSwift_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B25D795BDC4F426BC01EFC911F368B81 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BD4ED544B638D07C7D755AF1C27116A /* Foundation.framework */; };
+		B74CD6E6EBEA0B642776BCB37850415D /* UIImage+Snapshot.h in Headers */ = {isa = PBXBuildFile; fileRef = EA718A72E676291836EBB46B85242155 /* UIImage+Snapshot.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		C49D52712466511E332C952834C81FE1 /* FBSnapshotTestCasePlatform.h in Headers */ = {isa = PBXBuildFile; fileRef = D3067EAFD5B0A06885968D137840DB70 /* FBSnapshotTestCasePlatform.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C5ED585174FC421FD2F9E6B7628A960C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BD4ED544B638D07C7D755AF1C27116A /* Foundation.framework */; };
+		D04AAC8B22E4A4DC4F39891C4E52F251 /* UIImage+Diff.h in Headers */ = {isa = PBXBuildFile; fileRef = E354F8FD537351F26F7949B4EBFA5101 /* UIImage+Diff.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		D42DC66BA18FB418795F9C53290E0E50 /* Pods-TLFlutterUtilsSwift_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D23FFB50A2D10AED77221344C9BE92F1 /* Pods-TLFlutterUtilsSwift_Example-dummy.m */; };
+		E0B8D095C732352C854D365B9E5B993D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8CAA89EEF1039078430D7A886477E365 /* UIKit.framework */; };
+		E8AC509D18EBF21B1FEA909652A01108 /* FBSnapshotTestCasePlatform.m in Sources */ = {isa = PBXBuildFile; fileRef = AD0B81AC7DF4855803A0FA70985F8A99 /* FBSnapshotTestCasePlatform.m */; };
+		EED8B03CF50805AE5CB4788DB84BE45E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BD4ED544B638D07C7D755AF1C27116A /* Foundation.framework */; };
+		F1AAAE00BB32B733B238E2B4E8424506 /* UIImage+Compare.h in Headers */ = {isa = PBXBuildFile; fileRef = A25844C26701FA4BCAEF64150B56777F /* UIImage+Compare.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		F720FAF13A108CE6901E0A8B0580E1E8 /* FBSnapshotTestCase-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E621F768263424D9C5C35D58513625CB /* FBSnapshotTestCase-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1DF758CAE7CD7C0D56A02D19F515360E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 98A98149697C80CEF8D5772791E92E66;
+			remoteInfo = FBSnapshotTestCase;
+		};
+		5CDFB97127867ADF95E9A02F7AC1E647 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 168D4725BC0BE2F2E95B6534D160D887;
+			remoteInfo = "Pods-TLFlutterUtilsSwift_Example";
+		};
+		ABC05EF99940D7DB30D7A571A5095FAB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F02B6B198AF62A9E739D0374F5E34D3B;
+			remoteInfo = TLFlutterUtilsSwift;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		059357D83A44A16BA76F5FDD6B1AB089 /* Pods-TLFlutterUtilsSwift_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TLFlutterUtilsSwift_Example.release.xcconfig"; sourceTree = "<group>"; };
+		0A3ACA72AE9B776E644F6D159AB3E80B /* UIApplication+StrictKeyWindow.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIApplication+StrictKeyWindow.h"; path = "FBSnapshotTestCase/Categories/UIApplication+StrictKeyWindow.h"; sourceTree = "<group>"; };
+		13C8BBFE2D9E3A9C566221B1DE04E91C /* FBSnapshotTestCase.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestCase.m; path = FBSnapshotTestCase/FBSnapshotTestCase.m; sourceTree = "<group>"; };
+		1B8ABEEA76ECDF1975B6D0787700F929 /* FBSnapshotTestCase-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "FBSnapshotTestCase-Info.plist"; sourceTree = "<group>"; };
+		27CEA99CFEDC9A8F28196F45DD895532 /* TLFlutterUtilsSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = TLFlutterUtilsSwift.framework; path = TLFlutterUtilsSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3A83AE4362CF1D4764E00E4602A2D648 /* FBSnapshotTestCase-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FBSnapshotTestCase-dummy.m"; sourceTree = "<group>"; };
+		3E29C50D3CDB46CBCBD20AFA13EB3D8D /* FBSnapshotTestCase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestCase.h; path = FBSnapshotTestCase/FBSnapshotTestCase.h; sourceTree = "<group>"; };
+		418E0471655A8CDB5EB2C290498D2FD3 /* FBSnapshotTestCase.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FBSnapshotTestCase.xcconfig; sourceTree = "<group>"; };
+		43BC443921BC7607EDDCC01EC53B0144 /* Pods-TLFlutterUtilsSwift_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TLFlutterUtilsSwift_Tests-dummy.m"; sourceTree = "<group>"; };
+		44577EE112EFA4CEE0F6963847201AE3 /* Pods-TLFlutterUtilsSwift_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TLFlutterUtilsSwift_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		4A15D895E47A3F547D9665C352BDAA31 /* TLFlutterUtilsSwift.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TLFlutterUtilsSwift.xcconfig; sourceTree = "<group>"; };
+		4C6AE1313E4B33824434DB9C4244D877 /* Pods-TLFlutterUtilsSwift_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TLFlutterUtilsSwift_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		560216D62605AF49527E95D5DDE61A03 /* TLFlutterUtilsSwift-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TLFlutterUtilsSwift-dummy.m"; sourceTree = "<group>"; };
+		5C4F31330DFA99D699E4BDC8C3573D73 /* FBSnapshotTestCase.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = FBSnapshotTestCase.framework; path = FBSnapshotTestCase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5E601BD54DA9BF4071437E60125281FA /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		6314035B03D9BB36458F47BA7938BED6 /* Pods-TLFlutterUtilsSwift_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TLFlutterUtilsSwift_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		662F7FAEC20C135E104A89B41AAF8AB0 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		67A1AD56200FFFB36A1DFA7F247BF6CA /* Pods-TLFlutterUtilsSwift_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TLFlutterUtilsSwift_Example-frameworks.sh"; sourceTree = "<group>"; };
+		6F41CB1BF7D61FD40BA568F47EDA06B3 /* Pods-TLFlutterUtilsSwift_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TLFlutterUtilsSwift_Tests-umbrella.h"; sourceTree = "<group>"; };
+		716A9972B9D9103B54DB950893FAF104 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
+		73E8B1F40A8E30AE154E4DD58BC29CB3 /* Pods-TLFlutterUtilsSwift_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-TLFlutterUtilsSwift_Example.modulemap"; sourceTree = "<group>"; };
+		746CC9C9E1B0E104CD1BA120C69A2526 /* FBSnapshotTestCase-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FBSnapshotTestCase-prefix.pch"; sourceTree = "<group>"; };
+		7BD4ED544B638D07C7D755AF1C27116A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		7F750A616AFF1AA857C5898308B45A95 /* Pods-TLFlutterUtilsSwift_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TLFlutterUtilsSwift_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		82C4F5D68E5E8C21B4381A002FDA1843 /* TLFlutterUtilsSwift-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TLFlutterUtilsSwift-umbrella.h"; sourceTree = "<group>"; };
+		82D2DF1ABBBD85F5E079D7D0EB5479BC /* SwiftSupport.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftSupport.swift; path = FBSnapshotTestCase/SwiftSupport.swift; sourceTree = "<group>"; };
+		8413FFC5735CEE9E1AC45388FE418DF9 /* Pods-TLFlutterUtilsSwift_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TLFlutterUtilsSwift_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		8869D9F7B4010046D11BDBD8C6B9A204 /* Pods-TLFlutterUtilsSwift_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TLFlutterUtilsSwift_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		88EE4F95531D217A595AA8D85A24FA39 /* FBSnapshotTestController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestController.h; path = FBSnapshotTestCase/FBSnapshotTestController.h; sourceTree = "<group>"; };
+		8B8C7F16CBB2C2D7F268ED5FAB121197 /* Pods-TLFlutterUtilsSwift_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TLFlutterUtilsSwift_Example-umbrella.h"; sourceTree = "<group>"; };
+		8CAA89EEF1039078430D7A886477E365 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		8F1FE5C23F1BC485C54B92C32E78391F /* UIApplication+StrictKeyWindow.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIApplication+StrictKeyWindow.m"; path = "FBSnapshotTestCase/Categories/UIApplication+StrictKeyWindow.m"; sourceTree = "<group>"; };
+		98FD387DFA194173633270BAF1BCD859 /* FBSnapshotTestCase.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = FBSnapshotTestCase.modulemap; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A25844C26701FA4BCAEF64150B56777F /* UIImage+Compare.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Compare.h"; path = "FBSnapshotTestCase/Categories/UIImage+Compare.h"; sourceTree = "<group>"; };
+		AA0D5220573D2F180B315FF6FD4C1E8B /* Pods-TLFlutterUtilsSwift_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TLFlutterUtilsSwift_Tests-Info.plist"; sourceTree = "<group>"; };
+		AA172EA1A198EEFBE0794EACF7993C02 /* UIImage+Snapshot.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Snapshot.m"; path = "FBSnapshotTestCase/Categories/UIImage+Snapshot.m"; sourceTree = "<group>"; };
+		AD0B81AC7DF4855803A0FA70985F8A99 /* FBSnapshotTestCasePlatform.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestCasePlatform.m; path = FBSnapshotTestCase/FBSnapshotTestCasePlatform.m; sourceTree = "<group>"; };
+		B325E26D32B4CBC96F74824D5697169C /* Pods-TLFlutterUtilsSwift_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TLFlutterUtilsSwift_Example-Info.plist"; sourceTree = "<group>"; };
+		B4C30813A175D02B47B481F277DF66EA /* TLFlutterUtilsSwift-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TLFlutterUtilsSwift-prefix.pch"; sourceTree = "<group>"; };
+		BE79CD2295E26B3E41D2AE5D1946987E /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = TLFlutterUtilsSwift/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
+		C253FFDC94747F5398616E616E1E7AE8 /* Pods-TLFlutterUtilsSwift_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TLFlutterUtilsSwift_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		C5D0F6563EAE62BBC81A91BB237954A0 /* TLFlutterUtilsSwift.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = TLFlutterUtilsSwift.modulemap; sourceTree = "<group>"; };
+		C9C6DD383EC74DF848F57B3C0D3C2BCD /* TLFlutterUtilsSwift-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "TLFlutterUtilsSwift-Info.plist"; sourceTree = "<group>"; };
+		D0812990E1D362C0F04787C88E2D2339 /* Pods-TLFlutterUtilsSwift_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-TLFlutterUtilsSwift_Tests.modulemap"; sourceTree = "<group>"; };
+		D23FFB50A2D10AED77221344C9BE92F1 /* Pods-TLFlutterUtilsSwift_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TLFlutterUtilsSwift_Example-dummy.m"; sourceTree = "<group>"; };
+		D3067EAFD5B0A06885968D137840DB70 /* FBSnapshotTestCasePlatform.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestCasePlatform.h; path = FBSnapshotTestCase/FBSnapshotTestCasePlatform.h; sourceTree = "<group>"; };
+		DE35F81C954881204729C569018D98C0 /* FBSnapshotTestController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestController.m; path = FBSnapshotTestCase/FBSnapshotTestController.m; sourceTree = "<group>"; };
+		E0956940883830C651240E754E3ECC52 /* UIImage+Diff.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Diff.m"; path = "FBSnapshotTestCase/Categories/UIImage+Diff.m"; sourceTree = "<group>"; };
+		E1352819386D418402E915C9A8482FAA /* Pods-TLFlutterUtilsSwift_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TLFlutterUtilsSwift_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		E354F8FD537351F26F7949B4EBFA5101 /* UIImage+Diff.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Diff.h"; path = "FBSnapshotTestCase/Categories/UIImage+Diff.h"; sourceTree = "<group>"; };
+		E621F768263424D9C5C35D58513625CB /* FBSnapshotTestCase-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FBSnapshotTestCase-umbrella.h"; sourceTree = "<group>"; };
+		E9138DC3EC383A13E833ED2FE129CA76 /* Pods_TLFlutterUtilsSwift_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_TLFlutterUtilsSwift_Tests.framework; path = "Pods-TLFlutterUtilsSwift_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA718A72E676291836EBB46B85242155 /* UIImage+Snapshot.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Snapshot.h"; path = "FBSnapshotTestCase/Categories/UIImage+Snapshot.h"; sourceTree = "<group>"; };
+		EB6EFDEFCA74FD736DFE4A95674B4252 /* TLFlutterUtilsSwift.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = TLFlutterUtilsSwift.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		EF53D290F564A9B10CEF56C9DC2010F2 /* UIImage+Compare.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Compare.m"; path = "FBSnapshotTestCase/Categories/UIImage+Compare.m"; sourceTree = "<group>"; };
+		F1AC88148C35DC08643098D67A54CABE /* Pods_TLFlutterUtilsSwift_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_TLFlutterUtilsSwift_Example.framework; path = "Pods-TLFlutterUtilsSwift_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F4690480602564C2A8637F7AA3729A3D /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4DA9B044E805EB72C488E869B6D5E7E9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				67AFD697681FB6BF19FF397FDA141C3A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		50885F912B2ADEEED01C55C39224794B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EED8B03CF50805AE5CB4788DB84BE45E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		92B15E20D861771B945AB941F1E6413B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C5ED585174FC421FD2F9E6B7628A960C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E581515110D66F94F80A6937831489A1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B25D795BDC4F426BC01EFC911F368B81 /* Foundation.framework in Frameworks */,
+				14C511527597E5846AB2627F791C7D8E /* QuartzCore.framework in Frameworks */,
+				E0B8D095C732352C854D365B9E5B993D /* UIKit.framework in Frameworks */,
+				6AE239C5D116E1C06F5705699FB9EAF0 /* XCTest.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		376069ED49BA7F089CD84701B85CBCA3 /* TLFlutterUtilsSwift */ = {
+			isa = PBXGroup;
+			children = (
+				BE79CD2295E26B3E41D2AE5D1946987E /* ReplaceMe.swift */,
+				C7765F4BE5FB64B2BD2C18D369802BC8 /* Pod */,
+				48BA190BE119F20F965B7B7230A77A85 /* Support Files */,
+			);
+			name = TLFlutterUtilsSwift;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		45E4BEB48F67ECE4946F86A2669DF19F /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				98FD387DFA194173633270BAF1BCD859 /* FBSnapshotTestCase.modulemap */,
+				418E0471655A8CDB5EB2C290498D2FD3 /* FBSnapshotTestCase.xcconfig */,
+				3A83AE4362CF1D4764E00E4602A2D648 /* FBSnapshotTestCase-dummy.m */,
+				1B8ABEEA76ECDF1975B6D0787700F929 /* FBSnapshotTestCase-Info.plist */,
+				746CC9C9E1B0E104CD1BA120C69A2526 /* FBSnapshotTestCase-prefix.pch */,
+				E621F768263424D9C5C35D58513625CB /* FBSnapshotTestCase-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/FBSnapshotTestCase";
+			sourceTree = "<group>";
+		};
+		48BA190BE119F20F965B7B7230A77A85 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				C5D0F6563EAE62BBC81A91BB237954A0 /* TLFlutterUtilsSwift.modulemap */,
+				4A15D895E47A3F547D9665C352BDAA31 /* TLFlutterUtilsSwift.xcconfig */,
+				560216D62605AF49527E95D5DDE61A03 /* TLFlutterUtilsSwift-dummy.m */,
+				C9C6DD383EC74DF848F57B3C0D3C2BCD /* TLFlutterUtilsSwift-Info.plist */,
+				B4C30813A175D02B47B481F277DF66EA /* TLFlutterUtilsSwift-prefix.pch */,
+				82C4F5D68E5E8C21B4381A002FDA1843 /* TLFlutterUtilsSwift-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/TLFlutterUtilsSwift";
+			sourceTree = "<group>";
+		};
+		52AE21A4AFED2D67FFF9647C7D474AE2 /* Pods-TLFlutterUtilsSwift_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				D0812990E1D362C0F04787C88E2D2339 /* Pods-TLFlutterUtilsSwift_Tests.modulemap */,
+				6314035B03D9BB36458F47BA7938BED6 /* Pods-TLFlutterUtilsSwift_Tests-acknowledgements.markdown */,
+				7F750A616AFF1AA857C5898308B45A95 /* Pods-TLFlutterUtilsSwift_Tests-acknowledgements.plist */,
+				43BC443921BC7607EDDCC01EC53B0144 /* Pods-TLFlutterUtilsSwift_Tests-dummy.m */,
+				8869D9F7B4010046D11BDBD8C6B9A204 /* Pods-TLFlutterUtilsSwift_Tests-frameworks.sh */,
+				AA0D5220573D2F180B315FF6FD4C1E8B /* Pods-TLFlutterUtilsSwift_Tests-Info.plist */,
+				6F41CB1BF7D61FD40BA568F47EDA06B3 /* Pods-TLFlutterUtilsSwift_Tests-umbrella.h */,
+				E1352819386D418402E915C9A8482FAA /* Pods-TLFlutterUtilsSwift_Tests.debug.xcconfig */,
+				C253FFDC94747F5398616E616E1E7AE8 /* Pods-TLFlutterUtilsSwift_Tests.release.xcconfig */,
+			);
+			name = "Pods-TLFlutterUtilsSwift_Tests";
+			path = "Target Support Files/Pods-TLFlutterUtilsSwift_Tests";
+			sourceTree = "<group>";
+		};
+		7DE5752EED0A4C4A430975244947611A /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				7BD4ED544B638D07C7D755AF1C27116A /* Foundation.framework */,
+				716A9972B9D9103B54DB950893FAF104 /* QuartzCore.framework */,
+				8CAA89EEF1039078430D7A886477E365 /* UIKit.framework */,
+				5E601BD54DA9BF4071437E60125281FA /* XCTest.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		820C839EC049005CB82FAAF13AFDCB95 /* SwiftSupport */ = {
+			isa = PBXGroup;
+			children = (
+				82D2DF1ABBBD85F5E079D7D0EB5479BC /* SwiftSupport.swift */,
+			);
+			name = SwiftSupport;
+			sourceTree = "<group>";
+		};
+		82B3FE6329BA1B8349E9F3D64D58D6B6 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				E588B9EEC7BF15CF256ED91603155EA0 /* Pods-TLFlutterUtilsSwift_Example */,
+				52AE21A4AFED2D67FFF9647C7D474AE2 /* Pods-TLFlutterUtilsSwift_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		92B9827D134822FECA2FBE88A0585CBA /* FBSnapshotTestCase */ = {
+			isa = PBXGroup;
+			children = (
+				9DD967528FC2F5BD41E45879D4B78BEE /* Core */,
+				45E4BEB48F67ECE4946F86A2669DF19F /* Support Files */,
+				820C839EC049005CB82FAAF13AFDCB95 /* SwiftSupport */,
+			);
+			name = FBSnapshotTestCase;
+			path = FBSnapshotTestCase;
+			sourceTree = "<group>";
+		};
+		9DD967528FC2F5BD41E45879D4B78BEE /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				3E29C50D3CDB46CBCBD20AFA13EB3D8D /* FBSnapshotTestCase.h */,
+				13C8BBFE2D9E3A9C566221B1DE04E91C /* FBSnapshotTestCase.m */,
+				D3067EAFD5B0A06885968D137840DB70 /* FBSnapshotTestCasePlatform.h */,
+				AD0B81AC7DF4855803A0FA70985F8A99 /* FBSnapshotTestCasePlatform.m */,
+				88EE4F95531D217A595AA8D85A24FA39 /* FBSnapshotTestController.h */,
+				DE35F81C954881204729C569018D98C0 /* FBSnapshotTestController.m */,
+				0A3ACA72AE9B776E644F6D159AB3E80B /* UIApplication+StrictKeyWindow.h */,
+				8F1FE5C23F1BC485C54B92C32E78391F /* UIApplication+StrictKeyWindow.m */,
+				A25844C26701FA4BCAEF64150B56777F /* UIImage+Compare.h */,
+				EF53D290F564A9B10CEF56C9DC2010F2 /* UIImage+Compare.m */,
+				E354F8FD537351F26F7949B4EBFA5101 /* UIImage+Diff.h */,
+				E0956940883830C651240E754E3ECC52 /* UIImage+Diff.m */,
+				EA718A72E676291836EBB46B85242155 /* UIImage+Snapshot.h */,
+				AA172EA1A198EEFBE0794EACF7993C02 /* UIImage+Snapshot.m */,
+			);
+			name = Core;
+			sourceTree = "<group>";
+		};
+		AAEE3968DD81E6929E8CCB02D56292E5 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				376069ED49BA7F089CD84701B85CBCA3 /* TLFlutterUtilsSwift */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		BA4F31F07263C99FC76E66D632A59F09 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7DE5752EED0A4C4A430975244947611A /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C7765F4BE5FB64B2BD2C18D369802BC8 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				662F7FAEC20C135E104A89B41AAF8AB0 /* LICENSE */,
+				F4690480602564C2A8637F7AA3729A3D /* README.md */,
+				EB6EFDEFCA74FD736DFE4A95674B4252 /* TLFlutterUtilsSwift.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				AAEE3968DD81E6929E8CCB02D56292E5 /* Development Pods */,
+				BA4F31F07263C99FC76E66D632A59F09 /* Frameworks */,
+				E81A37DBDE41E671312C56736544E2FA /* Pods */,
+				F432D85FDCAD9B6C59DD4A81D9640FE5 /* Products */,
+				82B3FE6329BA1B8349E9F3D64D58D6B6 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		E588B9EEC7BF15CF256ED91603155EA0 /* Pods-TLFlutterUtilsSwift_Example */ = {
+			isa = PBXGroup;
+			children = (
+				73E8B1F40A8E30AE154E4DD58BC29CB3 /* Pods-TLFlutterUtilsSwift_Example.modulemap */,
+				8413FFC5735CEE9E1AC45388FE418DF9 /* Pods-TLFlutterUtilsSwift_Example-acknowledgements.markdown */,
+				44577EE112EFA4CEE0F6963847201AE3 /* Pods-TLFlutterUtilsSwift_Example-acknowledgements.plist */,
+				D23FFB50A2D10AED77221344C9BE92F1 /* Pods-TLFlutterUtilsSwift_Example-dummy.m */,
+				67A1AD56200FFFB36A1DFA7F247BF6CA /* Pods-TLFlutterUtilsSwift_Example-frameworks.sh */,
+				B325E26D32B4CBC96F74824D5697169C /* Pods-TLFlutterUtilsSwift_Example-Info.plist */,
+				8B8C7F16CBB2C2D7F268ED5FAB121197 /* Pods-TLFlutterUtilsSwift_Example-umbrella.h */,
+				4C6AE1313E4B33824434DB9C4244D877 /* Pods-TLFlutterUtilsSwift_Example.debug.xcconfig */,
+				059357D83A44A16BA76F5FDD6B1AB089 /* Pods-TLFlutterUtilsSwift_Example.release.xcconfig */,
+			);
+			name = "Pods-TLFlutterUtilsSwift_Example";
+			path = "Target Support Files/Pods-TLFlutterUtilsSwift_Example";
+			sourceTree = "<group>";
+		};
+		E81A37DBDE41E671312C56736544E2FA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				92B9827D134822FECA2FBE88A0585CBA /* FBSnapshotTestCase */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		F432D85FDCAD9B6C59DD4A81D9640FE5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5C4F31330DFA99D699E4BDC8C3573D73 /* FBSnapshotTestCase.framework */,
+				F1AC88148C35DC08643098D67A54CABE /* Pods_TLFlutterUtilsSwift_Example.framework */,
+				E9138DC3EC383A13E833ED2FE129CA76 /* Pods_TLFlutterUtilsSwift_Tests.framework */,
+				27CEA99CFEDC9A8F28196F45DD895532 /* TLFlutterUtilsSwift.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		0DF26A1EAD8966D5D5CBB7625AD09A59 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD26CD3714D84BB179AA0510D0B4B014 /* Pods-TLFlutterUtilsSwift_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		384DE8A8021C5DA5E256BCFEC3D478A9 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F720FAF13A108CE6901E0A8B0580E1E8 /* FBSnapshotTestCase-umbrella.h in Headers */,
+				00224C929D57F45B70E87359E719948D /* FBSnapshotTestCase.h in Headers */,
+				C49D52712466511E332C952834C81FE1 /* FBSnapshotTestCasePlatform.h in Headers */,
+				90142C6259374E18E640396A59AD379A /* FBSnapshotTestController.h in Headers */,
+				40039E0AF0D764360B1D4FC4F7950D2E /* UIApplication+StrictKeyWindow.h in Headers */,
+				F1AAAE00BB32B733B238E2B4E8424506 /* UIImage+Compare.h in Headers */,
+				D04AAC8B22E4A4DC4F39891C4E52F251 /* UIImage+Diff.h in Headers */,
+				B74CD6E6EBEA0B642776BCB37850415D /* UIImage+Snapshot.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C60480B8280AB3FF2C3C56FBF5618B9 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0360B15E4395CBC727F86A75E3C0B244 /* TLFlutterUtilsSwift-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		77E0023C8BE831F9D137B0B1270FE688 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4E775EF9822EC4AD074BDEBE467945B9 /* Pods-TLFlutterUtilsSwift_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		13423C43E6638E6703476355E8BA5F92 /* Pods-TLFlutterUtilsSwift_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F83C20C3F306F53DC5A94073F3F8B9EC /* Build configuration list for PBXNativeTarget "Pods-TLFlutterUtilsSwift_Tests" */;
+			buildPhases = (
+				77E0023C8BE831F9D137B0B1270FE688 /* Headers */,
+				E9F59B9D88EEC8F9FFED9C9E00FD6C2C /* Sources */,
+				92B15E20D861771B945AB941F1E6413B /* Frameworks */,
+				6C32642A3E3646701B5D875E8AADAFD3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2DCC45BEE7364CE98AFDF61DD6A06ED4 /* PBXTargetDependency */,
+				96232F6781D0DA8E6232A6E85D3866EB /* PBXTargetDependency */,
+			);
+			name = "Pods-TLFlutterUtilsSwift_Tests";
+			productName = "Pods-TLFlutterUtilsSwift_Tests";
+			productReference = E9138DC3EC383A13E833ED2FE129CA76 /* Pods_TLFlutterUtilsSwift_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		168D4725BC0BE2F2E95B6534D160D887 /* Pods-TLFlutterUtilsSwift_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BA468E9B83AF66D2FC1F3FA4E8847A7D /* Build configuration list for PBXNativeTarget "Pods-TLFlutterUtilsSwift_Example" */;
+			buildPhases = (
+				0DF26A1EAD8966D5D5CBB7625AD09A59 /* Headers */,
+				53333DC06AE06C5050BCB5770D983031 /* Sources */,
+				50885F912B2ADEEED01C55C39224794B /* Frameworks */,
+				F6579173730632693E458D9B1D481F1C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				30C95085DC46A04A50FD4E6E270DF9C1 /* PBXTargetDependency */,
+			);
+			name = "Pods-TLFlutterUtilsSwift_Example";
+			productName = "Pods-TLFlutterUtilsSwift_Example";
+			productReference = F1AC88148C35DC08643098D67A54CABE /* Pods_TLFlutterUtilsSwift_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		98A98149697C80CEF8D5772791E92E66 /* FBSnapshotTestCase */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A38070E189561F257BBD5A0A55CACCCF /* Build configuration list for PBXNativeTarget "FBSnapshotTestCase" */;
+			buildPhases = (
+				384DE8A8021C5DA5E256BCFEC3D478A9 /* Headers */,
+				A48201AC594B2E6B09C0EE0396BC1377 /* Sources */,
+				E581515110D66F94F80A6937831489A1 /* Frameworks */,
+				5CC655F1A6C7A45A9693160581076BAE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FBSnapshotTestCase;
+			productName = FBSnapshotTestCase;
+			productReference = 5C4F31330DFA99D699E4BDC8C3573D73 /* FBSnapshotTestCase.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		F02B6B198AF62A9E739D0374F5E34D3B /* TLFlutterUtilsSwift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 81128C5627149208C581C08A01A79FB8 /* Build configuration list for PBXNativeTarget "TLFlutterUtilsSwift" */;
+			buildPhases = (
+				3C60480B8280AB3FF2C3C56FBF5618B9 /* Headers */,
+				80DA1515086A963D660503B792104D83 /* Sources */,
+				4DA9B044E805EB72C488E869B6D5E7E9 /* Frameworks */,
+				EE5BC8023EE40A8C9B6FBE00198D8EF4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TLFlutterUtilsSwift;
+			productName = TLFlutterUtilsSwift;
+			productReference = 27CEA99CFEDC9A8F28196F45DD895532 /* TLFlutterUtilsSwift.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = F432D85FDCAD9B6C59DD4A81D9640FE5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				98A98149697C80CEF8D5772791E92E66 /* FBSnapshotTestCase */,
+				168D4725BC0BE2F2E95B6534D160D887 /* Pods-TLFlutterUtilsSwift_Example */,
+				13423C43E6638E6703476355E8BA5F92 /* Pods-TLFlutterUtilsSwift_Tests */,
+				F02B6B198AF62A9E739D0374F5E34D3B /* TLFlutterUtilsSwift */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5CC655F1A6C7A45A9693160581076BAE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6C32642A3E3646701B5D875E8AADAFD3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE5BC8023EE40A8C9B6FBE00198D8EF4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F6579173730632693E458D9B1D481F1C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		53333DC06AE06C5050BCB5770D983031 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D42DC66BA18FB418795F9C53290E0E50 /* Pods-TLFlutterUtilsSwift_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		80DA1515086A963D660503B792104D83 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				79AEC93C613E459750EEFC4151160459 /* ReplaceMe.swift in Sources */,
+				83CA07A31D765D2817BB29C00EB6C761 /* TLFlutterUtilsSwift-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A48201AC594B2E6B09C0EE0396BC1377 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6DBC8EB7532E931C2FBDA71D1E0B66A4 /* FBSnapshotTestCase-dummy.m in Sources */,
+				8CE3BF0ACE07EA42DD5DAC871BF4B767 /* FBSnapshotTestCase.m in Sources */,
+				E8AC509D18EBF21B1FEA909652A01108 /* FBSnapshotTestCasePlatform.m in Sources */,
+				88396E68DC05A379282F3B374F75F43C /* FBSnapshotTestController.m in Sources */,
+				9D65089019D558E5A9661F2DCAD20313 /* SwiftSupport.swift in Sources */,
+				11C410135C7E89353B480AC8DE0BFB77 /* UIApplication+StrictKeyWindow.m in Sources */,
+				2DCFF0CE0BD295F1D46D3247F36B192C /* UIImage+Compare.m in Sources */,
+				14AD81D52FAD9CF2C065C61FB00C3B4F /* UIImage+Diff.m in Sources */,
+				A525E29E0A8079B35B793D8A2B5FBDF2 /* UIImage+Snapshot.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E9F59B9D88EEC8F9FFED9C9E00FD6C2C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7483EFB99F7B9ECA40588BF242F9DD5F /* Pods-TLFlutterUtilsSwift_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2DCC45BEE7364CE98AFDF61DD6A06ED4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = FBSnapshotTestCase;
+			target = 98A98149697C80CEF8D5772791E92E66 /* FBSnapshotTestCase */;
+			targetProxy = 1DF758CAE7CD7C0D56A02D19F515360E /* PBXContainerItemProxy */;
+		};
+		30C95085DC46A04A50FD4E6E270DF9C1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = TLFlutterUtilsSwift;
+			target = F02B6B198AF62A9E739D0374F5E34D3B /* TLFlutterUtilsSwift */;
+			targetProxy = ABC05EF99940D7DB30D7A571A5095FAB /* PBXContainerItemProxy */;
+		};
+		96232F6781D0DA8E6232A6E85D3866EB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-TLFlutterUtilsSwift_Example";
+			target = 168D4725BC0BE2F2E95B6534D160D887 /* Pods-TLFlutterUtilsSwift_Example */;
+			targetProxy = 5CDFB97127867ADF95E9A02F7AC1E647 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		6240AA006D946B1F707BACADF3928169 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E1352819386D418402E915C9A8482FAA /* Pods-TLFlutterUtilsSwift_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-TLFlutterUtilsSwift_Tests/Pods-TLFlutterUtilsSwift_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TLFlutterUtilsSwift_Tests/Pods-TLFlutterUtilsSwift_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		6981B49048575F8238B3C5B905C918E5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 418E0471655A8CDB5EB2C290498D2FD3 /* FBSnapshotTestCase.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/FBSnapshotTestCase/FBSnapshotTestCase-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/FBSnapshotTestCase/FBSnapshotTestCase-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/FBSnapshotTestCase/FBSnapshotTestCase.modulemap";
+				PRODUCT_MODULE_NAME = FBSnapshotTestCase;
+				PRODUCT_NAME = FBSnapshotTestCase;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		808CB7A79577391A9B39F45DE76CA23A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4A15D895E47A3F547D9665C352BDAA31 /* TLFlutterUtilsSwift.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/TLFlutterUtilsSwift/TLFlutterUtilsSwift-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/TLFlutterUtilsSwift/TLFlutterUtilsSwift-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/TLFlutterUtilsSwift/TLFlutterUtilsSwift.modulemap";
+				PRODUCT_MODULE_NAME = TLFlutterUtilsSwift;
+				PRODUCT_NAME = TLFlutterUtilsSwift;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		922212A8264ABB80AEF07CB7FAD6BBEC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4A15D895E47A3F547D9665C352BDAA31 /* TLFlutterUtilsSwift.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/TLFlutterUtilsSwift/TLFlutterUtilsSwift-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/TLFlutterUtilsSwift/TLFlutterUtilsSwift-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/TLFlutterUtilsSwift/TLFlutterUtilsSwift.modulemap";
+				PRODUCT_MODULE_NAME = TLFlutterUtilsSwift;
+				PRODUCT_NAME = TLFlutterUtilsSwift;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		B0087CB4594321EF41619F3181FE120E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		B8BCBD0110C2658BB5DAADB9B7D97B92 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		B9CD5FA531ABFBA55E4783EE54ABF577 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C253FFDC94747F5398616E616E1E7AE8 /* Pods-TLFlutterUtilsSwift_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-TLFlutterUtilsSwift_Tests/Pods-TLFlutterUtilsSwift_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TLFlutterUtilsSwift_Tests/Pods-TLFlutterUtilsSwift_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		C27CD805A5E4D5FBBC4539F6A02A7114 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 059357D83A44A16BA76F5FDD6B1AB089 /* Pods-TLFlutterUtilsSwift_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-TLFlutterUtilsSwift_Example/Pods-TLFlutterUtilsSwift_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TLFlutterUtilsSwift_Example/Pods-TLFlutterUtilsSwift_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		DC251300A8ACFADB67C4B52DEAAED528 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4C6AE1313E4B33824434DB9C4244D877 /* Pods-TLFlutterUtilsSwift_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-TLFlutterUtilsSwift_Example/Pods-TLFlutterUtilsSwift_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TLFlutterUtilsSwift_Example/Pods-TLFlutterUtilsSwift_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		EE252C6C51286892441EE171776C7E81 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 418E0471655A8CDB5EB2C290498D2FD3 /* FBSnapshotTestCase.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/FBSnapshotTestCase/FBSnapshotTestCase-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/FBSnapshotTestCase/FBSnapshotTestCase-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/FBSnapshotTestCase/FBSnapshotTestCase.modulemap";
+				PRODUCT_MODULE_NAME = FBSnapshotTestCase;
+				PRODUCT_NAME = FBSnapshotTestCase;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B8BCBD0110C2658BB5DAADB9B7D97B92 /* Debug */,
+				B0087CB4594321EF41619F3181FE120E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		81128C5627149208C581C08A01A79FB8 /* Build configuration list for PBXNativeTarget "TLFlutterUtilsSwift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				808CB7A79577391A9B39F45DE76CA23A /* Debug */,
+				922212A8264ABB80AEF07CB7FAD6BBEC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A38070E189561F257BBD5A0A55CACCCF /* Build configuration list for PBXNativeTarget "FBSnapshotTestCase" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE252C6C51286892441EE171776C7E81 /* Debug */,
+				6981B49048575F8238B3C5B905C918E5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BA468E9B83AF66D2FC1F3FA4E8847A7D /* Build configuration list for PBXNativeTarget "Pods-TLFlutterUtilsSwift_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC251300A8ACFADB67C4B52DEAAED528 /* Debug */,
+				C27CD805A5E4D5FBBC4539F6A02A7114 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F83C20C3F306F53DC5A94073F3F8B9EC /* Build configuration list for PBXNativeTarget "Pods-TLFlutterUtilsSwift_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6240AA006D946B1F707BACADF3928169 /* Debug */,
+				B9CD5FA531ABFBA55E4783EE54ABF577 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

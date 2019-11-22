@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'TLFlutterUtilsSwift_Example' do
+  pod 'TLFlutterUtilsSwift', :path => '../'
+
+  target 'TLFlutterUtilsSwift_Tests' do
+    inherit! :search_paths
+
+    pod 'FBSnapshotTestCase' , '~> 2.1.4'
+  end
+end
